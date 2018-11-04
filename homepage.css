@@ -2,7 +2,7 @@ html, body {
 	min-height: 100% !important;
 	height: 100%;
 	margin: 0;
-	font: all;
+	font-family: Optima;
 }
 
 .banner {
@@ -10,7 +10,7 @@ html, body {
 }
 
 .banner > h1 {
-
+	padding-left: 20px;
 }
 
 .nav {
@@ -26,11 +26,16 @@ html, body {
 	background-color: #f1f1f1;
 	width: 80px;
 	margin: 10px;
+    padding: 5px;
 	text-align: center;
-
+    color: #2f5148;
 }
 
 a:link {
+	text-decoration: none;
+}
+
+a:visited {
 	text-decoration: none;
 }
 

@@ -1,24 +1,8 @@
 
-var panels = document.getElementsByClassName('panelContent');
-
-document.write(panels.length);
-
+var panels = document.querySelectorAll('.panelContent');
 console.log(panels);
-var p1 = document.getElementById("panel1");
-console.log(p1);
-var i;
+panels.forEach(panel => panel.addEventListener('click', clickFunction));
 
-for (i = 0;i < panels.length; i++) {
-
-	console.log(panels[i]);
-
-	panels[i].addEventListener("mouseover", function() {
-		console.log("mouseon");
-		panels[i].innerHTML = "hi";
-	});
-
-	panels[i].addEventListener("mouseout", function() {
-		console.log("mouseout");
-		panels[i].innerHTML = "hi";
-	});
+function clickFunction() {
+    this.innerHTML = this.innerHTML + 'hello';
 }
