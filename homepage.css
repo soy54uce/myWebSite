@@ -1,0 +1,39 @@
+html, body {
+	min-height: 100% !important;
+	height: 100%;
+	margin: 0;
+	font: all;
+}
+
+.banner {
+
+}
+
+.banner > h1 {
+
+}
+
+.nav {
+	display: flex;
+	flex-wrap: nowrap;
+	background-color: Green;
+	width: 100%;
+	text-align: center;
+	padding-left: 10px;
+}
+
+.nav > a {
+	background-color: #f1f1f1;
+	width: 80px;
+	margin: 10px;
+	text-align: center;
+
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.panels {
+	margin: 20px;
+}
