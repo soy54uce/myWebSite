@@ -1,8 +1,5 @@
 
 var panels = document.querySelectorAll('.panelContent');
-console.log(panels);
-panels.forEach(panel => panel.addEventListener('click', clickFunction));
+var navItems = document.getElementsByClassName('nav-item');
+console.log(navItems);
 
-function clickFunction() {
-    this.innerHTML = this.innerHTML + 'hello';
-}
