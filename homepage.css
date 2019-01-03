@@ -1,64 +1,61 @@
 html, body {
-	min-height: 100% !important;
-	height: 100%;
-	margin: 0;
-	font-family: Optima;
+    min-height: 100% !important;
+    height: 100%;
+    margin: 0;
+    font-family: Optima;
 }
 
 html {
-	box-sizing: border-box;
-	font-size: 20px;
-	font-weight: 200;
-}
-body {
-	margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 200;
 }
 
-*, *:before, *:after {
-	box-sizing: inherit;
+body {
+    margin: 5px;
 }
+
 .main {
-	/*border: 1px solid gray;*/
-	/*border-radius: 20px;*/
-	/*margin: 10px;*/
-	height: 100vh;
-	background-color: #b9e1e3;
-	align-items: stretch;
+    /*border: 1px solid gray;*/
+    /*border-radius: 20px;*/
+    /*margin: 10px;*/
+    height: 100vh;
+    background-color: white;
 }
-.banner {
-    background-image: url("horizon.png");
-    background-size: 900px 200px;
+
+h1 {
+
 }
-.banner > h1 {
-	padding-left: 20px;
-	margin: 0;
-}
+
 .nav {
-	display: flex;
-	flex-wrap: nowrap;
-	background-color: #2f2f2f78;
-	width: 100%;
-	text-align: center;
-	padding: 0px 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #2f2f2f78;
+    width: 100%;
+    text-align: center;
+    padding: 0px 15px;
 }
 
 .nav > a {
     border: 1px solid ghostwhite;
 
     border-radius: 4px;
-	background-color: #050404;
-	width: 20%;
-	margin: 10px;
+    background-color: #050404;
+    width: 20%;
+    margin: 10px;
     padding: 5px;
-	text-align: center;
+    text-align: center;
     color: #e1ebe9;
 }
+
 a:link {
-	text-decoration: none;
+    text-decoration: none;
 }
+
 a:visited {
-	text-decoration: none;
+    text-decoration: none;
 }
+
 .elevator {
     margin: 15px 25px;
     border: 1px solid ghostwhite;
@@ -66,37 +63,13 @@ a:visited {
     padding: 0px 10px;
     border-radius: 5px;
 }
+
 .elevator > p {
-	padding-top: 10px;
-	padding-bottom: 5px;
-	margin: 0;
-}
-.panels {
-    display: flex;
-    overflow: hidden;
-    min-height: 60vh;
-    flex-grow: 1;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: stretch;
-    justify-content: center;
-}
-.panel {
-    width: 30%;
-    border: 1px solid ghostwhite;
-    border-radius: 7px;
-    background: black;
-    color: white;
-    padding: 15px;
-    margin: 10px;
-    flex-shrink: 1;
-}
-.panel > * {
+    padding-top: 10px;
+    padding-bottom: 5px;
     margin: 0;
-    width: 100%;
-    flex: 1 0 auto;
-    display: flex;
 }
+
 .footer {
     background-color: #000000a1;
     position: absolute;
@@ -108,6 +81,15 @@ a:visited {
 
 .footer > p {
     padding-right: 20px;
-    color: rgba(247,250,230,0.49);
+    color: rgba(247, 250, 230, 0.49);
 }
+
+.plainRectangle {
+    border: 1px solid black;
+    border-radius: 0;
+    padding: 3px 5px;
+    margin: 3px;
+}
+
+
 
