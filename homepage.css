@@ -11,10 +11,6 @@ html {
     font-weight: 200;
 }
 
-body {
-    margin: 5px;
-}
-
 .main {
     /*border: 1px solid gray;*/
     /*border-radius: 20px;*/
@@ -33,7 +29,6 @@ h1 {
     background-color: #2f2f2f78;
     width: 100%;
     text-align: center;
-    padding: 0px 15px;
 }
 
 .nav > a {
@@ -88,7 +83,13 @@ a:visited {
     border: 1px solid black;
     border-radius: 0;
     padding: 3px 5px;
-    margin: 3px;
+    margin: 3px 30%;
+}
+
+.middleBox {
+
+    verticle-align: center !important;
+    text-align: center;
 }
 
 

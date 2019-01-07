@@ -1,4 +1,4 @@
-render(bbeaudin.index.html);
+
 
 
 
