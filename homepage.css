@@ -12,9 +12,6 @@ html {
 }
 
 .main {
-    /*border: 1px solid gray;*/
-    /*border-radius: 20px;*/
-    /*margin: 10px;*/
     height: 100vh;
     background-color: white;
 }
@@ -51,20 +48,6 @@ a:visited {
     text-decoration: none;
 }
 
-.elevator {
-    margin: 15px 25px;
-    border: 1px solid ghostwhite;
-    background-color: #8080805e;
-    padding: 0px 10px;
-    border-radius: 5px;
-}
-
-.elevator > p {
-    padding-top: 10px;
-    padding-bottom: 5px;
-    margin: 0;
-}
-
 .footer {
     background-color: #000000a1;
     position: absolute;
@@ -83,14 +66,30 @@ a:visited {
     border: 1px solid black;
     border-radius: 0;
     padding: 3px 5px;
-    margin: 3px 30%;
+    margin: 3px 10%;
 }
 
 .middleBox {
-
     verticle-align: center !important;
-    text-align: center;
 }
 
+.elevator {
+    margin: 15px 25px;
+    border: 1px solid ghostwhite;
+    background-color: #8080805e;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+.elevator > p {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
 
 
