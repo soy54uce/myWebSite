@@ -70,6 +70,7 @@ a:visited {
 }
 
 .middleBox {
+    margin-top: 10%;
     verticle-align: center !important;
 }
 
@@ -84,7 +85,7 @@ a:visited {
 .elevator > p {
     padding-top: 10px;
     padding-bottom: 5px;
-    margin: 0;
+
 }
 
 p {
