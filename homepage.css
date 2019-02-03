@@ -70,8 +70,7 @@ a:visited {
 }
 
 .middleBox {
-    margin-top: 10%;
-    verticle-align: center !important;
+    margin: auto;
 }
 
 .elevator {
